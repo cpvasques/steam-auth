@@ -1,0 +1,25 @@
+{
+    "name": "keymaster-auth",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "example": "node examples/signon/app.js",
+        "serve": "node app.js",
+        "build": "node app.js"
+    },
+    "main": "./lib/passport-steam",
+    "dependencies": {
+        "@passport-next/passport-openid": "^1.0.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "helmet": "^4.4.1",
+        "steam-web": "0.4.0"
+    },
+    "devDependencies": {
+        "ava": "^0.10.0",
+        "ejs": "^2.4.2",
+        "express": "^4.14.0",
+        "express-session": "^1.13.0",
+        "passport": "^0.3.2"
+    }
+}
